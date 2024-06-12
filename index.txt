@@ -1,0 +1,16 @@
+1. What is the difference between an Inner Class and a Sub-Class?
+   - An Inner class is a class that is nested within another class and has access rights to the class that is nesting it. It can access all variables and methods defined in the outer class. On the other hand, a Sub-Class is a class that inherits properties and behaviors from another class.
+
+2. Explain JVM, JRE, and JDK.
+   - JVM (Java Virtual Machine) is an abstract machine that provides a runtime environment for executing Java bytecode. It is responsible for interpreting the bytecode and executing the Java program.
+   - JRE (Java Runtime Environment) is a software package that contains the JVM, libraries, and other components necessary to run Java applications.
+   - JDK (Java Development Kit) is a software development kit that includes the JRE, compiler, debugger, and other tools needed for developing Java applications.
+
+3. What are the different types of loops in Java?
+   - There are three types of loops in Java: `for`, `while`, and `do-while`. The `for` loop is used to execute statements repeatedly for a given number of times. The `while` loop is used to execute statements repeatedly as long as a condition is true. The `do-while` loop is similar to the `while` loop, but it guarantees that the loop body is executed at least once.
+
+4. What is the purpose of the `volatile` keyword in Java?
+   - In Java, the `volatile` keyword is used to indicate that a variable's value may be modified by multiple threads. It ensures that changes made to the variable are immediately visible to other threads. The `volatile` keyword establishes a happens-before relationship, similar to acquiring and releasing a mutex.
+
+5. Why is the String class immutable in Java?
+   - The String class is immutable in Java because the designers of Java thought that strings would be heavily used and making them immutable allows for easy optimization and sharing of the same String object between multiple clients. This design choice also helps with security and thread safety.
