@@ -36,7 +36,7 @@ def make_daily_commits():
         make_commit(commit_date)
     
     # Push today's commits to GitHub
-    subprocess.run(["git", "push", "origin", "main"], cwd=REPO_PATH)
+    subprocess.run(["git", "push", "origin", "development"], cwd=REPO_PATH)
     print(f"Pushed {COMMITS_PER_DAY} commits for {current_date.strftime('%Y-%m-%d')}.")
 
 # Execute the daily commit process
